@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Beach House",
+    "location": "Goa",
+    "price": 4500,
+    "guests": 4,
+    "bedrooms": 2,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Mountain Cabin",
+    "location": "Manali",
+    "price": 3200,
+    "guests": 3,
+    "bedrooms": 1,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Luxury Apartment",
+    "location": "Mumbai",
+    "price": 6000,
+    "guests": 5,
+    "bedrooms": 3,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Lake View Cottage",
+    "location": "Nainital",
+    "price": 3800,
+    "guests": 4,
+    "bedrooms": 2,
+    "rating": 4.7,
+    "image": "https://plus.unsplash.com/premium_photo-1663126637580-ff22a73f9bfc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "title": "Desert Camp",
+    "location": "Jaisalmer",
+    "price": 2900,
+    "guests": 2,
+    "bedrooms": 1,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "title": "Tea Estate Villa",
+    "location": "Darjeeling",
+    "price": 5100,
+    "guests": 6,
+    "bedrooms": 3,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "title": "Backwater Houseboat",
+    "location": "Alleppey",
+    "price": 7200,
+    "guests": 6,
+    "bedrooms": 3,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Snow Chalet",
+    "location": "Gulmarg",
+    "price": 6700,
+    "guests": 5,
+    "bedrooms": 2,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 9,
+    "title": "Beach Villa",
+    "location": "Pondicherry",
+    "price": 5800,
+    "guests": 6,
+    "bedrooms": 4,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

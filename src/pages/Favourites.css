@@ -1,0 +1,138 @@
+.favourites-page {
+  width: min(1120px, calc(100% - 48px));
+  margin: 60px auto 90px;
+}
+
+.favourites-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 25px;
+
+  margin-bottom: 34px;
+}
+
+.favourites-heading p {
+  margin: 0 0 8px;
+
+  color: #ff5a73;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.favourites-heading h1 {
+  margin: 0;
+
+  color: #f5f5f7;
+  font-size: clamp(38px, 5vw, 58px);
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+}
+
+.favourites-heading > span {
+  padding: 9px 14px;
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+
+  background-color: #1d1f25;
+  color: #aeb5c3;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Empty state */
+
+.favourites-empty {
+  max-width: 620px;
+  margin: 80px auto;
+  padding: 65px 35px;
+
+  border: 1px dashed
+    rgba(255, 255, 255, 0.18);
+  border-radius: 22px;
+
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.025
+  );
+
+  text-align: center;
+}
+
+.empty-heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 22px;
+
+  border-radius: 50%;
+
+  background-color: rgba(
+    255,
+    79,
+    112,
+    0.12
+  );
+
+  color: #ff5a73;
+  font-size: 43px;
+}
+
+.favourites-empty h1 {
+  margin: 0 0 12px;
+  font-size: 34px;
+}
+
+.favourites-empty p {
+  max-width: 460px;
+  margin: 0 auto;
+
+  color: #9ba3b2;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.explore-favourites-button {
+  display: inline-block;
+
+  margin-top: 25px;
+  padding: 13px 22px;
+
+  border-radius: 10px;
+
+  background-color: #ff385c;
+  color: white;
+
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.explore-favourites-button:hover {
+  background-color: #e92f52;
+}
+
+@media (max-width: 600px) {
+  .favourites-page {
+    width: calc(100% - 32px);
+    margin-top: 40px;
+  }
+
+  .favourites-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .favourites-empty {
+    margin-top: 40px;
+    padding: 50px 22px;
+  }
+}
